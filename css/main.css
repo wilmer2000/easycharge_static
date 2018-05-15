@@ -321,7 +321,18 @@ header nav ul li a:hover{color: #FFF;}
     width: 130px;
     height: auto;
 }
-
+.slider.small {
+    height: 200px;
+    background: url(../img/back_slide.jpg) no-repeat;
+    background-size: cover;
+}
+.slider.small h1{
+    margin-top: 25px;
+}
+.slider.small h1,
+.slider.small h1 span{
+    margin-bottom: 0;
+}
 .flex_container_description {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -585,3 +596,55 @@ section#encuentranos{z-index: 2}
 }
 
 #map{height: 600px;}
+
+.list-product {
+    padding: 100px 0;
+    margin: 0;
+}
+.list-product .product {
+    list-style: none;
+}
+.list-product .product .title{
+    margin-top: 30px;
+}
+.list-product h3 {
+    margin: 0;
+    color: #FFF;
+    padding: 6px 20px;
+    background: #02B4B6;
+    border-radius: 30px;
+}
+.list-product .group-product + .group-product {
+    margin-top: 100px;
+}
+.grid-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.grid-product .product {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    width: 100%;
+    max-width: 33.33333333%;
+    padding: 15px;
+    text-align: center
+}
+.grid-product .product img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 30px 30px 0;
+}
+.grid-product .product span{
+    display: inline-block;
+    padding: 5px 15px;
+    background: #33354e;
+    color: #FFF;
+    max-width: 206px;
+}
