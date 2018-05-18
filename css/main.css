@@ -648,3 +648,45 @@ section#encuentranos{z-index: 2}
     color: #FFF;
     max-width: 206px;
 }
+
+.tabs-content .tabs-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.tabs-content .tabs-list li {
+    list-style: none;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    margin: 0 15px;
+}
+.tabs-content .tabs-list li a {
+    display: block;
+    padding: 15px;
+    background: #02B4B6;
+    padding: 25px 40px;
+    border-radius: 5px;
+    color: #FFF;
+    opacity: .5;
+}
+.tabs-content .tabs-list li a.active {
+    opacity: 1;
+    background:#33354e;
+}
+
+.tabs-content .tabs-section {}
+.tabs-content .tabs-section .tab {
+    display: none;
+    transition: all 500ms ease;
+    opacity: 0;
+    bottom: -200px;
+}
+.tabs-content .tabs-section .tab.active {
+    display: block;
+    opacity: 1;
+    bottom: 0;
+}
