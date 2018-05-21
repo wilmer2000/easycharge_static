@@ -1,5 +1,6 @@
 <?php
 
+  $reason = $_POST['reason'];
   $name = $_POST['name'];
   $phone = $_POST['phone'];
   $mail = $_POST['mail'];
@@ -7,12 +8,12 @@
   $message = '';
 
   $to  = 'hola@easycharge.com.uy';
-  $subject = 'Contacto desde la Página de EasyCharge';
+  $subject = $reason.' - Contacto desde la Página de EasyCharge';
 
   // mensaje
   // $message = '<p><strong>Nombre: <strong> {$name}</p><p><strong>Teléfono: <strong> {$phone}</p><p><strong>Email: <strong> {$mail}</p><p><strong>Comentario: <strong> {$comment}</p>';
   // $message = '{$name} {$phone} {$mail} {$comment}';
-  $message ="Nombre: ".$name."\rTeléfono: ".$phone."\rEmail: ".$mail."\rComentarios: ". $comment ;
+  $message ="Motivo de contacto: ".$reason."\rNombre: ".$name."\rTeléfono: ".$phone."\rEmail: ".$mail."\rComentarios: ". $comment ;
     
 
   // Para enviar un correo HTML, debe establecerse la cabecera Content-type

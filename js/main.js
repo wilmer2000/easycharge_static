@@ -16,6 +16,7 @@ $(document).ready(function(){
 		event.preventDefault();
 		if (grecaptcha.getResponse() != "") {
 	 		var data = {
+			    'reason': $("#contacto #motivo").val(),
 			    'name': $("#contacto #name").val(),
 			    'phone': $("#contacto #phone").val(),
 			    'mail': $("#contacto #mail").val(),
