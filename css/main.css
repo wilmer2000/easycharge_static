@@ -328,6 +328,7 @@ header nav ul li a:hover{color: #FFF;}
 }
 .slider.small h1{
     margin-top: 25px;
+    text-align: center;
 }
 .slider.small h1,
 .slider.small h1 span{
