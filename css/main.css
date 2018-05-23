@@ -764,6 +764,7 @@ section#encuentranos{z-index: 2}
 }
 .photos-products .photo img{
     border-radius: 50%;
+    border: solid 6px #02B4B6;
 }
 .photos-products .text{}
 .photos-products .text p {margin: 0;color: #02B4B6;}
