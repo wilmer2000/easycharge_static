@@ -403,7 +403,7 @@ header nav ul li a:hover{color: #FFF;}
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    margin-top:200px;
+    margin:200px 0;
     box-shadow: 10px 10px 50px 5px rgba(0,0,0,0.2);
 }
 .flex_formulario .right{
@@ -432,11 +432,19 @@ header nav ul li a:hover{color: #FFF;}
     background: #FFF;
     padding:30px;
 }
+footer {
+    background: url(../img/back_slide.jpg) no-repeat center;
+    background-size: cover;
+}
+footer.separator_top::after {
+    top: -200px;
+}
 footer h3{margin:0;margin-bottom:15px;}
 footer .form-group{margin-bottom: 0;}
 footer .form-group.select-content p {
     color: #FFF;
 }
+footer .flex_item {z-index: 10;}
 footer .form-group.select-content select {
     display: block;
     width: 100%;
