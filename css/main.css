@@ -712,7 +712,7 @@ section#encuentranos{z-index: 2}
     background:#33354e;
 }
 
-.tabs-content .tabs-section {}
+.tabs-content .tabs-section .contact_easycharge{margin-top: 100px}
 .tabs-content .tabs-section .tab {
     display: none;
     transition: all 500ms ease;
