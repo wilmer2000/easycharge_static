@@ -13,6 +13,7 @@
 }
 @media (max-width: 991px) {
     body {padding-top: 70px;}
+    body.index_section.principal {padding-top:0 }
     header{
         width: 100%;padding:0px;
     }
@@ -101,7 +102,6 @@
     .gallery .flex_container_description .flex_item,
     .rent_section .flex_container_description .flex_item,
     .flex_container_description.content_2 .flex_item{width: 100%}
-    #inicio .slider .img img{display: none;}
     #encuentranos .slider .img img{max-width: 90px;margin-bottom: 0;}
     .cont_map .map iframe{height: 400px;}
     .show_section .flex_container_description.establecimientos .flex_item {width: 50%;}

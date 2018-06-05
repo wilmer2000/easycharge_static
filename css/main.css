@@ -353,13 +353,14 @@ header nav ul li a:hover{color: #FFF;}
         -ms-flex-align: start;
             align-items: flex-start;
 }
+.slider_principal {background: url(../img/back_slide.jpg) no-repeat center; background-size: cover}
 .slider_principal .slider{
     height: 100vh;
 }
 section.slider_principal:after{
     content:"";
-    background: url(../img/montevideo.jpg) no-repeat center;
-    background-size: 90% auto;
+    background: url(../img/montevideo.png) no-repeat center;
+    background-size: 100% auto;
     display: block;
     position: absolute;
     z-index: -1;
