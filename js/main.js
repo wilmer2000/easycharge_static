@@ -40,6 +40,12 @@ $(document).ready(function(){
 		}
 	});
 
+	// $('.gallery .flex_item img').on('click touchstart', function(event){
+	// 	$('a.fl').featherlight({
+	// 		targetAttr: 'href'
+	// 	});
+    // });
+
     $('.btn_menu').on('click touchstart', function(event){
         event.preventDefault();
         $('header #menu').slideToggle('fast');

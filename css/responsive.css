@@ -95,6 +95,8 @@
     .contact_easycharge .left{padding:50px;}
     .contact_easycharge .btn {width: 100%;padding-left: 0;padding-right: 0;margin-top:20px;}
     .show_section .flex_container_description .flex_item{width: 33.33333333333%;}
+    .featherlight .featherlight-content {position: initial;}
+    .featherlight .featherlight-close-icon {top: 10px;right: 10px;}
 }
 @media (max-width: 660px) {
     .flex_formulario .right{width: 100%;}
